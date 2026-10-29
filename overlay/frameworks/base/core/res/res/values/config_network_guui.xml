@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GUUI Apex 1.0 network & privacy overrides (G.33, G.36-37, H) -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- NTP: Aliyun NTP for China reliability (was time.android.com) -->
+    <string name="config_ntpServer" translatable="false">ntp.aliyun.com</string>
+    <!-- Disable captive-portal detection to avoid false "no internet" on China carriers -->
+    <bool name="config_captive_portal_detection_enabled">false</bool>
+</resources>
