@@ -180,4 +180,7 @@
         <item>376.2</item>
         <item>392.9</item>
     </array>
+
+    <!-- GUUI Apex (B.6): enable shutdown animation -->
+    <bool name="config_animateShutdown">true</bool>
 </resources>
