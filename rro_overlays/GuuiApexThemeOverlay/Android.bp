@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "GuuiApexThemeOverlay",
+    theme: "GuuiApexThemeOverlay",
+    product_specific: true,
+}
