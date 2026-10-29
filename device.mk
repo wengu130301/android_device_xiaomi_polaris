@@ -111,3 +111,10 @@ PRODUCT_COPY_FILES += \
 # GUUI Apex parrot-blue theme RRO (C.14-17)
 PRODUCT_PACKAGES += \
     GuuiApexThemeOverlay
+
+# GUUI Apex default audio (D.19-24): ringtone / notification / alarm / boot sound
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/audio/ringtones/GuuiApexDream.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/GuuiApexDream.ogg \
+    $(LOCAL_PATH)/media/audio/notifications/GuuiApexDream.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/GuuiApexDream.ogg \
+    $(LOCAL_PATH)/media/audio/alarms/GuuiApexDream.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/GuuiApexDream.ogg \
+    $(LOCAL_PATH)/media/audio/ui/PowerOn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/PowerOn.ogg
