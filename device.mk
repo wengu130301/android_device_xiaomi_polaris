@@ -100,3 +100,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
+
+
+
+# GUUI Apex boot / shutdown animation (B)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip \
+    $(LOCAL_PATH)/shutdownanimation.zip:system/media/shutdownanimation.zip
