@@ -6,3 +6,6 @@ persist.camera.sat.fallback.lux.d=20
 # GUUI Apex 1.0 identity (replaces LineageOS branding)
 ro.guui.apex.version=1.0
 ro.guui.apex.device=polaris
+
+# GUUI Apex privacy (G.33): disable LineageOS metrics/telemetry by default
+ro.lineage.metrics.enabled=false
