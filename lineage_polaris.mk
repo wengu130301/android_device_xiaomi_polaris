@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018-2019,2022 The LineageOS Project
+# Copyright (C) 2026 LaswI / 文文设计打造
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -10,9 +11,9 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_polaris
+PRODUCT_NAME := guui_apex_polaris
 PRODUCT_DEVICE := polaris
-PRODUCT_BRAND := Xiaomi
+PRODUCT_BRAND := GuuiApex
 PRODUCT_MODEL := Mi MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi
 
