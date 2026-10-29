@@ -107,3 +107,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip \
     $(LOCAL_PATH)/shutdownanimation.zip:system/media/shutdownanimation.zip
+
+# GUUI Apex parrot-blue theme RRO (C.14-17)
+PRODUCT_PACKAGES += \
+    GuuiApexThemeOverlay
